@@ -1,0 +1,11 @@
+Heyo!
+
+This is my subpar parser.
+
+You can run the windows executable prac_two.exe or compile from scratch using `cargo build`
+
+It accepts a command-line parameter that is the filename of the source program, i.e. ./prac_two spl.txt
+
+Thanks!
+
+-- Richard Lastrucci / u20430168
