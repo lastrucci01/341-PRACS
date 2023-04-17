@@ -28,6 +28,10 @@ fn main() {
         }
     };
 
+    if source_code.len() == 0 {
+        println!("Empty source file - no parsing needed");
+        return;
+    }
     // println!("{}", source_code);
     let lexer = Lexer::new(&source_code);
     let tokens = lexer.collect::<Vec<Token>>();

@@ -70,7 +70,6 @@ impl Parser {
                     self.add_children(term, children.clone());
                     self.push_list(children);
                 } else if let None = rule {
-                    println!("{:?} - {}", &stack_top, term);
                     panic!("\x1B[31m{}\x1B[0m", "PARSE ERROR - NO TABLE RULE FOR INPUT")
                 }
             } else {
@@ -82,7 +81,7 @@ impl Parser {
     }
 
     fn init_parser(&mut self) {
-        let first = "PROGR";
+        let first = "PROGR $";
         let tokens = self.make_nodes(first);
         for token in tokens {
             self.stack.push(token)
