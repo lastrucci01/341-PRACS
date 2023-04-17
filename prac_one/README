@@ -1,0 +1,35 @@
+Heyo!
+
+This code does the following yo,
+
+1. Retreives parsed REGEX input  
+2. Passes REGEX representation to nfa.rs which returns a NFA  
+3. Passes NFA to dfa.rs which returns a DFA  
+4. Passes DFA to min_dfa.rs which returns a MINDFA  
+5. Outputs to `out.xml`  
+
+It was written in Rust, but NOT in the Rust coding style (I am in pain)  
+If you want to compile it from scratch, install a rust compiler ¯\\_(ツ)_/¯ and execute the commands:
+```bash
+    cargo build                     //compiles
+    cp ./target/debug/prac_one ./   //just copy the exe out of the folder Rust likes to put it within
+    ./prac one "someinputstring"    //run it like an exe yo
+```
+
+The xml file is structured as follows: 
+```xml
+<mindfa>
+    <states>
+		<0>true</0> //accept val stored in state
+    </states>
+    <transitions>
+		<0>
+			<0>a</0> //transition from 0 to 0 on 'a' char
+			<0>b</0>
+		</0>
+    </transitions>
+</mindfa>
+```
+Is it buggy? Probably. Am I in tears? Yes.
+
+Bye!
