@@ -1,0 +1,1431 @@
+<PROGR id="0">
+	<ALGO id="2">
+		<INSTR id="5">
+			<INPUT id="6">
+					g
+				<NUMVAR id="7">
+						n
+					<DIGITS id="10">
+						<D id="14">
+							1
+						</D>
+					</DIGITS>
+				</NUMVAR>
+			</INPUT>
+		</INSTR>
+		<SEQ id="3">
+				;
+			<ALGO id="17">
+				<INSTR id="22">
+					<INPUT id="23">
+							g
+						<NUMVAR id="24">
+								n
+							<DIGITS id="27">
+								<D id="31">
+									2
+								</D>
+							</DIGITS>
+						</NUMVAR>
+					</INPUT>
+				</INSTR>
+				<SEQ id="20">
+						;
+					<ALGO id="34">
+						<INSTR id="39">
+							<INPUT id="40">
+									g
+								<NUMVAR id="41">
+										n
+									<DIGITS id="44">
+										<D id="48">
+											3
+										</D>
+									</DIGITS>
+								</NUMVAR>
+							</INPUT>
+						</INSTR>
+						<SEQ id="37">
+								;
+							<ALGO id="51">
+								<INSTR id="56">
+									<INPUT id="57">
+											g
+										<NUMVAR id="58">
+												n
+											<DIGITS id="61">
+												<D id="65">
+													1
+												</D>
+												<MORE id="64">
+													<DIGITS id="68">
+														<D id="70">
+															0
+														</D>
+													</DIGITS>
+												</MORE>
+											</DIGITS>
+										</NUMVAR>
+									</INPUT>
+								</INSTR>
+								<SEQ id="54">
+										;
+									<ALGO id="73">
+										<INSTR id="78">
+											<INPUT id="79">
+													g
+												<NUMVAR id="80">
+														n
+													<DIGITS id="83">
+														<D id="87">
+															1
+														</D>
+														<MORE id="86">
+															<DIGITS id="90">
+																<D id="92">
+																	1
+																</D>
+															</DIGITS>
+														</MORE>
+													</DIGITS>
+												</NUMVAR>
+											</INPUT>
+										</INSTR>
+										<SEQ id="76">
+												;
+											<ALGO id="95">
+												<INSTR id="100">
+													<ASSIGN id="101">
+														<BOOLVAR id="104">
+																b
+															<DIGITS id="105">
+																<D id="109">
+																	1
+																</D>
+															</DIGITS>
+														</BOOLVAR>
+															:=
+														<BOOLEXPR id="102">
+															<LOGIC id="113">
+																F
+															</LOGIC>
+														</BOOLEXPR>
+													</ASSIGN>
+												</INSTR>
+												<SEQ id="98">
+														;
+													<ALGO id="116">
+														<INSTR id="121">
+															<ASSIGN id="122">
+																<BOOLVAR id="125">
+																		b
+																	<DIGITS id="126">
+																		<D id="130">
+																			2
+																		</D>
+																	</DIGITS>
+																</BOOLVAR>
+																	:=
+																<BOOLEXPR id="123">
+																	<LOGIC id="134">
+																		F
+																	</LOGIC>
+																</BOOLEXPR>
+															</ASSIGN>
+														</INSTR>
+														<SEQ id="119">
+																;
+															<ALGO id="137">
+																<INSTR id="142">
+																	<BRANCH id="143">
+																			i
+																			(
+																		<BOOLEXPR id="150">
+																			<CMPR id="155">
+																					>
+																					(
+																				<NUMEXPR id="159">
+																					<NUMVAR id="164">
+																							n
+																						<DIGITS id="165">
+																							<D id="169">
+																								1
+																							</D>
+																							<MORE id="168">
+																								<DIGITS id="172">
+																									<D id="174">
+																										0
+																									</D>
+																								</DIGITS>
+																							</MORE>
+																						</DIGITS>
+																					</NUMVAR>
+																				</NUMEXPR>
+																					,
+																				<NUMEXPR id="157">
+																					<DECNUM id="178">
+																						0.00
+																					</DECNUM>
+																				</NUMEXPR>
+																					)
+																			</CMPR>
+																		</BOOLEXPR>
+																			)
+																			t
+																			{
+																		<ALGO id="146">
+																			<INSTR id="187">
+																				<CALL id="188">
+																						c
+																						p
+																					<DIGITS id="189">
+																						<D id="195">
+																							3
+																						</D>
+																						<MORE id="194">
+																							<DIGITS id="198">
+																								<D id="200">
+																									4
+																								</D>
+																							</DIGITS>
+																						</MORE>
+																					</DIGITS>
+																				</CALL>
+																			</INSTR>
+																			<SEQ id="185">
+																					;
+																				<ALGO id="203">
+																					<INSTR id="208">
+																						<ASSIGN id="209">
+																							<BOOLVAR id="212">
+																									b
+																								<DIGITS id="213">
+																									<D id="217">
+																										1
+																									</D>
+																								</DIGITS>
+																							</BOOLVAR>
+																								:=
+																							<BOOLEXPR id="210">
+																								<LOGIC id="221">
+																									T
+																								</LOGIC>
+																							</BOOLEXPR>
+																						</ASSIGN>
+																					</INSTR>
+																				</ALGO>
+																			</SEQ>
+																		</ALGO>
+																			}
+																	</BRANCH>
+																</INSTR>
+																<SEQ id="140">
+																		;
+																	<ALGO id="225">
+																		<INSTR id="230">
+																			<BRANCH id="231">
+																					i
+																					(
+																				<BOOLEXPR id="238">
+																					<CMPR id="243">
+																							>
+																							(
+																						<NUMEXPR id="247">
+																							<NUMVAR id="252">
+																									n
+																								<DIGITS id="253">
+																									<D id="257">
+																										1
+																									</D>
+																									<MORE id="256">
+																										<DIGITS id="260">
+																											<D id="262">
+																												1
+																											</D>
+																										</DIGITS>
+																									</MORE>
+																								</DIGITS>
+																							</NUMVAR>
+																						</NUMEXPR>
+																							,
+																						<NUMEXPR id="245">
+																							<DECNUM id="266">
+																								0.00
+																							</DECNUM>
+																						</NUMEXPR>
+																							)
+																					</CMPR>
+																				</BOOLEXPR>
+																					)
+																					t
+																					{
+																				<ALGO id="234">
+																					<INSTR id="275">
+																						<CALL id="276">
+																								c
+																								p
+																							<DIGITS id="277">
+																								<D id="283">
+																									7
+																								</D>
+																								<MORE id="282">
+																									<DIGITS id="286">
+																										<D id="288">
+																											4
+																										</D>
+																										<MORE id="287">
+																											<DIGITS id="291">
+																												<D id="293">
+																													5
+																												</D>
+																											</DIGITS>
+																										</MORE>
+																									</DIGITS>
+																								</MORE>
+																							</DIGITS>
+																						</CALL>
+																					</INSTR>
+																					<SEQ id="273">
+																							;
+																						<ALGO id="296">
+																							<INSTR id="301">
+																								<ASSIGN id="302">
+																									<BOOLVAR id="305">
+																											b
+																										<DIGITS id="306">
+																											<D id="310">
+																												2
+																											</D>
+																										</DIGITS>
+																									</BOOLVAR>
+																										:=
+																									<BOOLEXPR id="303">
+																										<LOGIC id="314">
+																											T
+																										</LOGIC>
+																									</BOOLEXPR>
+																								</ASSIGN>
+																							</INSTR>
+																						</ALGO>
+																					</SEQ>
+																				</ALGO>
+																					}
+																			</BRANCH>
+																		</INSTR>
+																		<SEQ id="228">
+																				;
+																			<ALGO id="318">
+																				<INSTR id="323">
+																					<BRANCH id="324">
+																							i
+																							(
+																						<BOOLEXPR id="331">
+																							<LOGIC id="336">
+																									^
+																									(
+																								<BOOLEXPR id="340">
+																									<LOGIC id="345">
+																										<BOOLVAR id="346">
+																												b
+																											<DIGITS id="347">
+																												<D id="351">
+																													1
+																												</D>
+																											</DIGITS>
+																										</BOOLVAR>
+																									</LOGIC>
+																								</BOOLEXPR>
+																									,
+																								<BOOLEXPR id="338">
+																									<LOGIC id="355">
+																										<BOOLVAR id="356">
+																												b
+																											<DIGITS id="357">
+																												<D id="361">
+																													2
+																												</D>
+																											</DIGITS>
+																										</BOOLVAR>
+																									</LOGIC>
+																								</BOOLEXPR>
+																									)
+																							</LOGIC>
+																						</BOOLEXPR>
+																							)
+																							t
+																							{
+																						<ALGO id="327">
+																							<INSTR id="370">
+																								<ASSIGN id="371">
+																									<STRINGV id="374">
+																											s
+																										<DIGITS id="375">
+																											<D id="379">
+																												1
+																											</D>
+																										</DIGITS>
+																									</STRINGV>
+																										:=
+																									<STRI id="372">
+																											"
+																										<C id="398">
+																											B
+																										</C>
+																										<C id="397">
+																											o
+																										</C>
+																										<C id="396">
+																											t
+																										</C>
+																										<C id="395">
+																											h
+																										</C>
+																										<C id="394">
+																											 
+																										</C>
+																										<C id="393">
+																											p
+																										</C>
+																										<C id="392">
+																											r
+																										</C>
+																										<C id="391">
+																											o
+																										</C>
+																										<C id="390">
+																											c
+																										</C>
+																										<C id="389">
+																											s
+																										</C>
+																										<C id="388">
+																											 
+																										</C>
+																										<C id="387">
+																											u
+																										</C>
+																										<C id="386">
+																											s
+																										</C>
+																										<C id="385">
+																											e
+																										</C>
+																										<C id="384">
+																											d
+																										</C>
+																											"
+																									</STRI>
+																								</ASSIGN>
+																							</INSTR>
+																							<SEQ id="368">
+																									;
+																								<ALGO id="417">
+																									<INSTR id="422">
+																										<OUTPUT id="423">
+																											<TEXT id="424">
+																													r
+																												<STRINGV id="425">
+																														s
+																													<DIGITS id="428">
+																														<D id="432">
+																															1
+																														</D>
+																													</DIGITS>
+																												</STRINGV>
+																											</TEXT>
+																										</OUTPUT>
+																									</INSTR>
+																								</ALGO>
+																							</SEQ>
+																						</ALGO>
+																							}
+																						<ELSE id="325">
+																								e
+																								{
+																							<ALGO id="437">
+																								<INSTR id="444">
+																									<ASSIGN id="445">
+																										<STRINGV id="448">
+																												s
+																											<DIGITS id="449">
+																												<D id="453">
+																													1
+																												</D>
+																											</DIGITS>
+																										</STRINGV>
+																											:=
+																										<STRI id="446">
+																												"
+																											<C id="472">
+																												O
+																											</C>
+																											<C id="471">
+																												n
+																											</C>
+																											<C id="470">
+																												e
+																											</C>
+																											<C id="469">
+																												 
+																											</C>
+																											<C id="468">
+																												p
+																											</C>
+																											<C id="467">
+																												r
+																											</C>
+																											<C id="466">
+																												o
+																											</C>
+																											<C id="465">
+																												c
+																											</C>
+																											<C id="464">
+																												s
+																											</C>
+																											<C id="463">
+																												 
+																											</C>
+																											<C id="462">
+																												u
+																											</C>
+																											<C id="461">
+																												s
+																											</C>
+																											<C id="460">
+																												e
+																											</C>
+																											<C id="459">
+																												d
+																											</C>
+																											<C id="458">
+																												.
+																											</C>
+																												"
+																										</STRI>
+																									</ASSIGN>
+																								</INSTR>
+																								<SEQ id="442">
+																										;
+																									<ALGO id="491">
+																										<INSTR id="496">
+																											<OUTPUT id="497">
+																												<TEXT id="498">
+																														r
+																													<STRINGV id="499">
+																															s
+																														<DIGITS id="502">
+																															<D id="506">
+																																1
+																															</D>
+																														</DIGITS>
+																													</STRINGV>
+																												</TEXT>
+																											</OUTPUT>
+																										</INSTR>
+																									</ALGO>
+																								</SEQ>
+																							</ALGO>
+																								}
+																						</ELSE>
+																					</BRANCH>
+																				</INSTR>
+																			</ALGO>
+																		</SEQ>
+																	</ALGO>
+																</SEQ>
+															</ALGO>
+														</SEQ>
+													</ALGO>
+												</SEQ>
+											</ALGO>
+										</SEQ>
+									</ALGO>
+								</SEQ>
+							</ALGO>
+						</SEQ>
+					</ALGO>
+				</SEQ>
+			</ALGO>
+		</SEQ>
+	</ALGO>
+	<PROCDEFS id="1">
+			,
+		<PROC id="511">
+				p
+			<DIGITS id="517">
+				<D id="521">
+					3
+				</D>
+				<MORE id="520">
+					<DIGITS id="524">
+						<D id="526">
+							4
+						</D>
+					</DIGITS>
+				</MORE>
+			</DIGITS>
+				{
+			<PROGR id="515">
+				<ALGO id="531">
+					<INSTR id="534">
+						<ASSIGN id="535">
+							<STRINGV id="538">
+									s
+								<DIGITS id="539">
+									<D id="543">
+										1
+									</D>
+								</DIGITS>
+							</STRINGV>
+								:=
+							<STRI id="536">
+									"
+								<C id="562">
+									T
+								</C>
+								<C id="561">
+									r
+								</C>
+								<C id="560">
+									i
+								</C>
+								<C id="559">
+									a
+								</C>
+								<C id="558">
+									n
+								</C>
+								<C id="557">
+									g
+								</C>
+								<C id="556">
+									l
+								</C>
+								<C id="555">
+									e
+								</C>
+								<C id="554">
+									 
+								</C>
+								<C id="553">
+									v
+								</C>
+								<C id="552">
+									a
+								</C>
+								<C id="551">
+									l
+								</C>
+								<C id="550">
+									i
+								</C>
+								<C id="549">
+									d
+								</C>
+								<C id="548">
+									.
+								</C>
+									"
+							</STRI>
+						</ASSIGN>
+					</INSTR>
+					<SEQ id="532">
+							;
+						<ALGO id="581">
+							<INSTR id="586">
+								<ASSIGN id="587">
+									<STRINGV id="590">
+											s
+										<DIGITS id="591">
+											<D id="595">
+												2
+											</D>
+										</DIGITS>
+									</STRINGV>
+										:=
+									<STRI id="588">
+											"
+										<C id="614">
+											T
+										</C>
+										<C id="613">
+											r
+										</C>
+										<C id="612">
+											i
+										</C>
+										<C id="611">
+											a
+										</C>
+										<C id="610">
+											n
+										</C>
+										<C id="609">
+											g
+										</C>
+										<C id="608">
+											l
+										</C>
+										<C id="607">
+											e
+										</C>
+										<C id="606">
+											 
+										</C>
+										<C id="605">
+											!
+										</C>
+										<C id="604">
+											v
+										</C>
+										<C id="603">
+											a
+										</C>
+										<C id="602">
+											l
+										</C>
+										<C id="601">
+											i
+										</C>
+										<C id="600">
+											d
+										</C>
+											"
+									</STRI>
+								</ASSIGN>
+							</INSTR>
+							<SEQ id="584">
+									;
+								<ALGO id="633">
+									<INSTR id="638">
+										<ASSIGN id="639">
+											<NUMVAR id="642">
+													n
+												<DIGITS id="643">
+													<D id="647">
+														4
+													</D>
+												</DIGITS>
+											</NUMVAR>
+												:=
+											<NUMEXPR id="640">
+													m
+													(
+												<NUMEXPR id="654">
+													<NUMVAR id="659">
+															n
+														<DIGITS id="660">
+															<D id="664">
+																1
+															</D>
+														</DIGITS>
+													</NUMVAR>
+												</NUMEXPR>
+													,
+												<NUMEXPR id="652">
+													<NUMVAR id="668">
+															n
+														<DIGITS id="669">
+															<D id="673">
+																1
+															</D>
+														</DIGITS>
+													</NUMVAR>
+												</NUMEXPR>
+													)
+											</NUMEXPR>
+										</ASSIGN>
+									</INSTR>
+									<SEQ id="636">
+											;
+										<ALGO id="677">
+											<INSTR id="682">
+												<ASSIGN id="683">
+													<NUMVAR id="686">
+															n
+														<DIGITS id="687">
+															<D id="691">
+																5
+															</D>
+														</DIGITS>
+													</NUMVAR>
+														:=
+													<NUMEXPR id="684">
+															m
+															(
+														<NUMEXPR id="698">
+															<NUMVAR id="703">
+																	n
+																<DIGITS id="704">
+																	<D id="708">
+																		2
+																	</D>
+																</DIGITS>
+															</NUMVAR>
+														</NUMEXPR>
+															,
+														<NUMEXPR id="696">
+															<NUMVAR id="712">
+																	n
+																<DIGITS id="713">
+																	<D id="717">
+																		2
+																	</D>
+																</DIGITS>
+															</NUMVAR>
+														</NUMEXPR>
+															)
+													</NUMEXPR>
+												</ASSIGN>
+											</INSTR>
+											<SEQ id="680">
+													;
+												<ALGO id="721">
+													<INSTR id="726">
+														<ASSIGN id="727">
+															<NUMVAR id="730">
+																	n
+																<DIGITS id="731">
+																	<D id="735">
+																		6
+																	</D>
+																</DIGITS>
+															</NUMVAR>
+																:=
+															<NUMEXPR id="728">
+																	m
+																	(
+																<NUMEXPR id="742">
+																	<NUMVAR id="747">
+																			n
+																		<DIGITS id="748">
+																			<D id="752">
+																				3
+																			</D>
+																		</DIGITS>
+																	</NUMVAR>
+																</NUMEXPR>
+																	,
+																<NUMEXPR id="740">
+																	<NUMVAR id="756">
+																			n
+																		<DIGITS id="757">
+																			<D id="761">
+																				3
+																			</D>
+																		</DIGITS>
+																	</NUMVAR>
+																</NUMEXPR>
+																	)
+															</NUMEXPR>
+														</ASSIGN>
+													</INSTR>
+													<SEQ id="724">
+															;
+														<ALGO id="765">
+															<INSTR id="770">
+																<BRANCH id="771">
+																		i
+																		(
+																	<BOOLEXPR id="778">
+																		<CMPR id="783">
+																				E
+																				(
+																			<NUMEXPR id="787">
+																				<NUMVAR id="792">
+																						n
+																					<DIGITS id="793">
+																						<D id="797">
+																							6
+																						</D>
+																					</DIGITS>
+																				</NUMVAR>
+																			</NUMEXPR>
+																				,
+																			<NUMEXPR id="785">
+																					a
+																					(
+																				<NUMEXPR id="804">
+																					<NUMVAR id="809">
+																							n
+																						<DIGITS id="810">
+																							<D id="814">
+																								4
+																							</D>
+																						</DIGITS>
+																					</NUMVAR>
+																				</NUMEXPR>
+																					,
+																				<NUMEXPR id="802">
+																					<NUMVAR id="818">
+																							n
+																						<DIGITS id="819">
+																							<D id="823">
+																								5
+																							</D>
+																						</DIGITS>
+																					</NUMVAR>
+																				</NUMEXPR>
+																					)
+																			</NUMEXPR>
+																				)
+																		</CMPR>
+																	</BOOLEXPR>
+																		)
+																		t
+																		{
+																	<ALGO id="774">
+																		<INSTR id="833">
+																			<OUTPUT id="834">
+																				<TEXT id="835">
+																						r
+																					<STRINGV id="836">
+																							s
+																						<DIGITS id="839">
+																							<D id="843">
+																								1
+																							</D>
+																						</DIGITS>
+																					</STRINGV>
+																				</TEXT>
+																			</OUTPUT>
+																		</INSTR>
+																	</ALGO>
+																		}
+																	<ELSE id="772">
+																			e
+																			{
+																		<ALGO id="848">
+																			<INSTR id="855">
+																				<OUTPUT id="856">
+																					<TEXT id="857">
+																							r
+																						<STRINGV id="858">
+																								s
+																							<DIGITS id="861">
+																								<D id="865">
+																									2
+																								</D>
+																							</DIGITS>
+																						</STRINGV>
+																					</TEXT>
+																				</OUTPUT>
+																			</INSTR>
+																		</ALGO>
+																			}
+																	</ELSE>
+																</BRANCH>
+															</INSTR>
+														</ALGO>
+													</SEQ>
+												</ALGO>
+											</SEQ>
+										</ALGO>
+									</SEQ>
+								</ALGO>
+							</SEQ>
+						</ALGO>
+					</SEQ>
+				</ALGO>
+			</PROGR>
+				}
+		</PROC>
+		<PROCDEFS id="510">
+				,
+			<PROC id="871">
+					p
+				<DIGITS id="877">
+					<D id="881">
+						7
+					</D>
+					<MORE id="880">
+						<DIGITS id="884">
+							<D id="886">
+								4
+							</D>
+							<MORE id="885">
+								<DIGITS id="889">
+									<D id="891">
+										5
+									</D>
+								</DIGITS>
+							</MORE>
+						</DIGITS>
+					</MORE>
+				</DIGITS>
+					{
+				<PROGR id="875">
+					<ALGO id="896">
+						<INSTR id="899">
+							<ASSIGN id="900">
+								<STRINGV id="903">
+										s
+									<DIGITS id="904">
+										<D id="908">
+											1
+										</D>
+									</DIGITS>
+								</STRINGV>
+									:=
+								<STRI id="901">
+										"
+									<C id="927">
+										F
+									</C>
+									<C id="926">
+										a
+									</C>
+									<C id="925">
+										c
+									</C>
+									<C id="924">
+										t
+									</C>
+									<C id="923">
+										o
+									</C>
+									<C id="922">
+										r
+									</C>
+									<C id="921">
+										i
+									</C>
+									<C id="920">
+										a
+									</C>
+									<C id="919">
+										l
+									</C>
+									<C id="918">
+										 
+									</C>
+									<C id="917">
+										n
+									</C>
+									<C id="916">
+										u
+									</C>
+									<C id="915">
+										m
+									</C>
+									<C id="914">
+										:
+									</C>
+									<C id="913">
+										 
+									</C>
+										"
+								</STRI>
+							</ASSIGN>
+						</INSTR>
+						<SEQ id="897">
+								;
+							<ALGO id="946">
+								<INSTR id="951">
+									<ASSIGN id="952">
+										<STRINGV id="955">
+												s
+											<DIGITS id="956">
+												<D id="960">
+													2
+												</D>
+											</DIGITS>
+										</STRINGV>
+											:=
+										<STRI id="953">
+												"
+											<C id="979">
+												O
+											</C>
+											<C id="978">
+												r
+											</C>
+											<C id="977">
+												i
+											</C>
+											<C id="976">
+												g
+											</C>
+											<C id="975">
+												i
+											</C>
+											<C id="974">
+												n
+											</C>
+											<C id="973">
+												a
+											</C>
+											<C id="972">
+												l
+											</C>
+											<C id="971">
+												 
+											</C>
+											<C id="970">
+												n
+											</C>
+											<C id="969">
+												u
+											</C>
+											<C id="968">
+												m
+											</C>
+											<C id="967">
+												:
+											</C>
+											<C id="966">
+												 
+											</C>
+											<C id="965">
+												 
+											</C>
+												"
+										</STRI>
+									</ASSIGN>
+								</INSTR>
+								<SEQ id="949">
+										;
+									<ALGO id="998">
+										<INSTR id="1003">
+											<ASSIGN id="1004">
+												<NUMVAR id="1007">
+														n
+													<DIGITS id="1008">
+														<D id="1012">
+															2
+														</D>
+													</DIGITS>
+												</NUMVAR>
+													:=
+												<NUMEXPR id="1005">
+													<DECNUM id="1016">
+														<POS id="1017">
+															<INT id="1021">
+																1
+															</INT>
+																.
+															<D id="1019">
+																0
+															</D>
+															<D id="1018">
+																0
+															</D>
+														</POS>
+													</DECNUM>
+												</NUMEXPR>
+											</ASSIGN>
+										</INSTR>
+										<SEQ id="1001">
+												;
+											<ALGO id="1030">
+												<INSTR id="1035">
+													<ASSIGN id="1036">
+														<NUMVAR id="1039">
+																n
+															<DIGITS id="1040">
+																<D id="1044">
+																	3
+																</D>
+															</DIGITS>
+														</NUMVAR>
+															:=
+														<NUMEXPR id="1037">
+															<NUMVAR id="1048">
+																	n
+																<DIGITS id="1049">
+																	<D id="1053">
+																		1
+																	</D>
+																</DIGITS>
+															</NUMVAR>
+														</NUMEXPR>
+													</ASSIGN>
+												</INSTR>
+												<SEQ id="1033">
+														;
+													<ALGO id="1056">
+														<INSTR id="1061">
+															<LOOP id="1062">
+																	w
+																	(
+																<BOOLEXPR id="1067">
+																	<CMPR id="1072">
+																			>
+																			(
+																		<NUMEXPR id="1076">
+																			<NUMVAR id="1081">
+																					n
+																				<DIGITS id="1082">
+																					<D id="1086">
+																						3
+																					</D>
+																				</DIGITS>
+																			</NUMVAR>
+																		</NUMEXPR>
+																			,
+																		<NUMEXPR id="1074">
+																			<DECNUM id="1090">
+																				0.00
+																			</DECNUM>
+																		</NUMEXPR>
+																			)
+																	</CMPR>
+																</BOOLEXPR>
+																	)
+																	{
+																<ALGO id="1064">
+																	<INSTR id="1098">
+																		<ASSIGN id="1099">
+																			<NUMVAR id="1102">
+																					n
+																				<DIGITS id="1103">
+																					<D id="1107">
+																						2
+																					</D>
+																				</DIGITS>
+																			</NUMVAR>
+																				:=
+																			<NUMEXPR id="1100">
+																					m
+																					(
+																				<NUMEXPR id="1114">
+																					<NUMVAR id="1119">
+																							n
+																						<DIGITS id="1120">
+																							<D id="1124">
+																								2
+																							</D>
+																						</DIGITS>
+																					</NUMVAR>
+																				</NUMEXPR>
+																					,
+																				<NUMEXPR id="1112">
+																					<NUMVAR id="1128">
+																							n
+																						<DIGITS id="1129">
+																							<D id="1133">
+																								3
+																							</D>
+																						</DIGITS>
+																					</NUMVAR>
+																				</NUMEXPR>
+																					)
+																			</NUMEXPR>
+																		</ASSIGN>
+																	</INSTR>
+																	<SEQ id="1096">
+																			;
+																		<ALGO id="1137">
+																			<INSTR id="1142">
+																				<ASSIGN id="1143">
+																					<NUMVAR id="1146">
+																							n
+																						<DIGITS id="1147">
+																							<D id="1151">
+																								3
+																							</D>
+																						</DIGITS>
+																					</NUMVAR>
+																						:=
+																					<NUMEXPR id="1144">
+																							a
+																							(
+																						<NUMEXPR id="1158">
+																							<NUMVAR id="1163">
+																									n
+																								<DIGITS id="1164">
+																									<D id="1168">
+																										3
+																									</D>
+																								</DIGITS>
+																							</NUMVAR>
+																						</NUMEXPR>
+																							,
+																						<NUMEXPR id="1156">
+																							<DECNUM id="1172">
+																								<NEG id="1173">
+																										-
+																									<POS id="1174">
+																										<INT id="1180">
+																											1
+																										</INT>
+																											.
+																										<D id="1178">
+																											0
+																										</D>
+																										<D id="1177">
+																											0
+																										</D>
+																									</POS>
+																								</NEG>
+																							</DECNUM>
+																						</NUMEXPR>
+																							)
+																					</NUMEXPR>
+																				</ASSIGN>
+																			</INSTR>
+																		</ALGO>
+																	</SEQ>
+																</ALGO>
+																	}
+															</LOOP>
+														</INSTR>
+														<SEQ id="1059">
+																;
+															<ALGO id="1191">
+																<INSTR id="1196">
+																	<OUTPUT id="1197">
+																		<TEXT id="1198">
+																				r
+																			<STRINGV id="1199">
+																					s
+																				<DIGITS id="1167">
+																					<D id="1132">
+																						2
+																					</D>
+																					<MORE id="1140">
+																					</MORE>
+																				</DIGITS>
+																			</STRINGV>
+																		</TEXT>
+																	</OUTPUT>
+																</INSTR>
+																<SEQ id="1194">
+																		;
+																	<ALGO id="1097">
+																		<INSTR id="1034">
+																			<OUTPUT id="1022">
+																				<VALUE id="1011">
+																						o
+																					<NUMVAR id="1002">
+																							n
+																						<DIGITS id="907">
+																							<D id="870">
+																								1
+																							</D>
+																							<MORE id="890">
+																							</MORE>
+																						</DIGITS>
+																					</NUMVAR>
+																				</VALUE>
+																			</OUTPUT>
+																		</INSTR>
+																		<COMMENT id="1043">
+																		</COMMENT>
+																		<SEQ id="1052">
+																				;
+																			<ALGO id="853">
+																				<INSTR id="813">
+																					<OUTPUT id="796">
+																						<TEXT id="769">
+																								r
+																							<STRINGV id="768">
+																									s
+																								<DIGITS id="734">
+																									<D id="690">
+																										1
+																									</D>
+																									<MORE id="707">
+																									</MORE>
+																								</DIGITS>
+																							</STRINGV>
+																						</TEXT>
+																					</OUTPUT>
+																				</INSTR>
+																				<COMMENT id="822">
+																				</COMMENT>
+																				<SEQ id="831">
+																						;
+																					<ALGO id="663">
+																						<INSTR id="542">
+																							<OUTPUT id="533">
+																								<VALUE id="530">
+																										o
+																									<NUMVAR id="525">
+																											n
+																										<DIGITS id="494">
+																											<D id="421">
+																												3
+																											</D>
+																											<MORE id="431">
+																											</MORE>
+																										</DIGITS>
+																									</NUMVAR>
+																								</VALUE>
+																							</OUTPUT>
+																						</INSTR>
+																						<COMMENT id="585">
+																								*
+																							<C id="206">
+																								P
+																							</C>
+																							<C id="207">
+																								r
+																							</C>
+																							<C id="216">
+																								i
+																							</C>
+																							<C id="229">
+																								n
+																							</C>
+																							<C id="232">
+																								t
+																							</C>
+																							<C id="261">
+																								 
+																							</C>
+																							<C id="274">
+																								F
+																							</C>
+																							<C id="292">
+																								a
+																							</C>
+																							<C id="299">
+																								c
+																							</C>
+																							<C id="300">
+																								t
+																							</C>
+																							<C id="309">
+																								o
+																							</C>
+																							<C id="321">
+																								r
+																							</C>
+																							<C id="322">
+																								i
+																							</C>
+																							<C id="350">
+																								a
+																							</C>
+																							<C id="360">
+																								l
+																							</C>
+																								*
+																						</COMMENT>
+																						<SEQ id="594">
+																						</SEQ>
+																					</ALGO>
+																				</SEQ>
+																			</ALGO>
+																		</SEQ>
+																	</ALGO>
+																</SEQ>
+															</ALGO>
+														</SEQ>
+													</ALGO>
+												</SEQ>
+											</ALGO>
+										</SEQ>
+									</ALGO>
+								</SEQ>
+							</ALGO>
+						</SEQ>
+					</ALGO>
+				</PROGR>
+					}
+			</PROC>
+		</PROCDEFS>
+	</PROCDEFS>
+</PROGR>

@@ -53,7 +53,7 @@ impl Parser {
                     self.table.get_from_table(&stack_top, &term.to_string())
                 };
 
-                // self.print_stack();
+                // self._print_stack();
                 // println!("LEX ->{:?}", &self.tokens[0].lexeme);
                 
                 // println!("--------------------------");
@@ -81,7 +81,7 @@ impl Parser {
     }
 
     fn init_parser(&mut self) {
-        let first = "PROGR $";
+        let first = "PROGR";
         let tokens = self.make_nodes(first);
         for token in tokens {
             self.stack.push(token)
